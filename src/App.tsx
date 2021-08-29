@@ -1,8 +1,13 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { FC } from "react";
+import AddNewTask from "./components/addNewTask";
+import Header from "./components/Header";
 
-function App() {
-  return <div></div>;
-}
+const App: FC = () => {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
+};
 
 export default App;
